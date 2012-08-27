@@ -1,9 +1,19 @@
 {
   "name": "node-sphero",
-  "version": "0.0.0",
+  "version": "0.0.1",
+  "description":"Control the Sphero robotic ball from Node!",
+  "author":"Mick Thompson <mick@mick.im>",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dthompson/node-sphero.git"
+  },
+  "engines": {
+    "node": ">= 0.6.0"
+  },
   "main": "lib/sphero.js",
   "dependencies": {
-    "serialport": "0.7.x",
-    "ecstatic": "~0.1.6"
+    "ecstatic": "~0.1.6",
+    "eventemitter2": "~0.4.9",
+    "serialport": "0.7.x"
   }
 }
