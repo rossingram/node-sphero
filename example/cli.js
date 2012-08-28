@@ -31,7 +31,7 @@ sphero.on("connected", function(ball){
     if(key && key.name == 'n') sphero.setBackLED(0);
     if(key && key.name == 'right') sphero.setHeading(45);
     if(key && key.name == 'left') sphero.setHeading(315);
-    if(key && key.name == 'up') sphero.roll(0, 0.5);
+    if(key && key.name == 'up') sphero.roll(0, 1);
     if(key && key.name == 'down') sphero.roll(0, 0);
   });
 });
